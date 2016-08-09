@@ -1,0 +1,1 @@
+  $("#graph_lines").animate({width:'600px'},1200);.

@@ -1,0 +1,9 @@
+$("#rhtbar1").delay(3000).animate({'opacity':'1'},1,function(){
+		$('#rhtbar1').attr({"class":"animated fadeIn"},750);
+	});
+		$("#rhtbar2").delay(3000).animate({'opacity':'1'},1,function(){
+		$('#rhtbar2').attr({"class":"animated fadeIn"},750);
+	});
+			$("#rhttxt").delay(3000).animate({'opacity':'1'},1,function(){
+		$('#rhttxt').attr({"class":"animated fadeIn"},750);
+	});

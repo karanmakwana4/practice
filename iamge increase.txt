@@ -1,0 +1,12 @@
+ setTimeout(function(){$('#people1').fadeIn();},300);
+		      setTimeout(function(){$('#people2').fadeIn();},600);
+			  setTimeout(function(){$('#people3').fadeIn();},900);
+			  setTimeout(function(){$('#people4').fadeIn();},1200);
+			  setTimeout(function(){$('#people5').fadeIn();},1500);
+			  setTimeout(function(){$('#people6').fadeIn();},1800);
+		      setTimeout(function(){$('#people7').fadeIn();},2100);
+			  setTimeout(function(){$('#people8').fadeIn();},2400);
+			  setTimeout(function(){$('#people9').fadeIn();},2700);
+			  setTimeout(function(){$('#people10').fadeIn();},3000);
+			  
+			  use display:none is css

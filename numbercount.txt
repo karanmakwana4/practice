@@ -1,0 +1,19 @@
+<span class="count">200%</span>
+.count
+{
+  line-height: 100px;
+  color:#32b5f6;
+  margin-left:30px;
+  font-size:25px;
+}
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
