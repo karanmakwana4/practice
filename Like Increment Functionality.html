@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Increment count when button is clicked</title>
+	<style>
+	*{ margin:0;padding:0;box-sizing:border-box;}
+	.like{ width:1200px; margin:0 auto;}
+	#imag{ float:left; margin:30px 0px 0px 0px;}
+	p { float:left; margin:22px 0px 0px 12px; font-size:30px;}
+	#imag img{ cursor:pointer;}
+	</style>
+  </head>
+
+  <body>
+  <div class="like">
+	<div id="imag"><img src="like.png" width="20" height="20" value="Count" id="countButton" /></div>
+
+    <p><span id="displayCount">0</span> Likes.</p>
+</div>
+    <script type="text/javascript">
+      var count = 0;
+      var button = document.getElementById("countButton");
+      var display = document.getElementById("displayCount");
+
+      imag.onclick = function(){
+        count++;
+        display.innerHTML = count;
+      }
+    </script>
+  </body>
+</html>
