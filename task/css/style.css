@@ -20,7 +20,7 @@ button{
 #container { width: 100%; height: 650px; }
 #col-1 { width: 100%; height: 650px; background-color: #307764; float: none; }
 #col-2 { width: 100%; height: 650px; background-color: #305077; float: none; }
-input[type="text"] { max-width: 120px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+input[type="text"] { max-width: 180px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
