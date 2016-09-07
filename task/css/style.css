@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global Style */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+/* Container */
+#container { width: 100%; height: 650px; background-color: #D4595B; }
+#col1 { width: 50%; height: 650px; background-color: #307764; float: left; }
+#col2 { width: 50%; height: 650px; background-color: #305077; float: left; }
+/* Fields */
+input[type="text"] { max-width: 220px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+/* Dummy Text*/
+#txt1, #txt2 { font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; font-size: 15px; color: #ffffff; padding: 20px; }
+button{
+	padding:6px; margin:10px 0px 0px 20px;}
+
+/* Media Screen */
+@media screen and (min-width: 220px) and (max-width: 480px) {
+#container { width: 100%; height: 650px; }
+#col-1 { width: 100%; height: 650px; background-color: #307764; float: none; }
+#col-2 { width: 100%; height: 650px; background-color: #305077; float: none; }
+input[type="text"] { max-width: 120px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+#container { width: 100%; height: 650px; }
+#col-1 { width: 100%; height: 650px; background-color: #307764; float: none; }
+#col-2 { width: 100%; height: 650px; background-color: #305077; float: none; }
+input[type="text"] { max-width: 220px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+#container { width: 100%; height: 650px; }
+#col-1 { width: 100%; height: 650px; background-color: #307764; float: none; }
+#col-2 { width: 100%; height: 650px; background-color: #305077; float: none; }
+input[type="text"] { max-width: 220px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+}
+
+@media screen and (min-width: 1024px) {
+#container { width: 100%; height: 650px; }
+#col-1 { width: 50%; height: 650px; background-color: #307764; float: left; }
+#col-2 { width: 50%; height: 650px; background-color: #305077; float: left; }
+input[type="text"] { max-width: 220px; width:100%; padding: 6px; margin: 20px 0px 0px 30px; }
+}

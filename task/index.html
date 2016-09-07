@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Task</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<!-- Container -->
+<div id="container"> 
+  <!-- Column 1 -->
+  <div id="col1">
+    <input type="text" id="fname" placeholder="Enter Your First Name!!!" />
+    <input type="text" id="lname" placeholder="Enter Your Last Name!!!" />
+  </div>
+  <!-- Column 2 -->
+  <div id="col2">
+    <p id="txt1">First Name</p>
+    <p id="txt2">Last Name</p>
+    <button onClick="printColumn('col2')">Print</button>
+  </div>
+</div>
+<!-- Script File --> 
+<script src="script/script.js"></script> 
+<script>
+function printColumn(el){
+	var fullpage = document.body.innerHTML;
+	var printarea = document.getElementById(el).innerHTML;
+	document.body.innerHTML = printarea;
+	window.print(); 
+	document.body.innerHTML = fullpage;
+	}
+</script>
+</body>
+</html>
